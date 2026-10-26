@@ -45,18 +45,42 @@ public class BaiTapB2 {
         sc.nextLine();
 
         switch (choice) {
-            case 1 -> bai1NhapSoTrongKhoang(sc);
-            case 2 -> bai2TinhTuoi(sc);
-            case 3 -> bai3InMangVaTong(sc);
-            case 4 -> bai4TimChiSo(sc);
-            case 5 -> bai5TimMax(sc);
-            case 6 -> bai6TongLonHon50(sc);
-            case 7 -> bai7TachHoTen(sc);
-            case 8 -> bai8TongMang(sc);
-            case 9 -> bai9MangTong(sc);
-            case 10 -> bai10ChuoiMang(sc);
-            case 0 -> chayDemoTatCa();
-            default -> System.out.println("Lua chon khong hop le.");
+            case 1:
+                bai1NhapSoTrongKhoang(sc);
+                break;
+            case 2:
+                bai2TinhTuoi(sc);
+                break;
+            case 3:
+                bai3InMangVaTong(sc);
+                break;
+            case 4:
+                bai4TimChiSo(sc);
+                break;
+            case 5:
+                bai5TimMax(sc);
+                break;
+            case 6:
+                bai6TongLonHon50(sc);
+                break;
+            case 7:
+                bai7TachHoTen(sc);
+                break;
+            case 8:
+                bai8TongMang(sc);
+                break;
+            case 9:
+                bai9MangTong(sc);
+                break;
+            case 10:
+                bai10ChuoiMang(sc);
+                break;
+            case 0:
+                chayDemoTatCa();
+                break;
+            default:
+                System.out.println("Lua chon khong hop le.");
+                break;
         }
 
         sc.close();
